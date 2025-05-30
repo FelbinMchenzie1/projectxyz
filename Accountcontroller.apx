@@ -1,0 +1,9 @@
+public class AccountsController
+{
+
+public List<Account> getAllAccounts(){
+   list<Account> lstAccount = [SELECT id, Name From Account];
+   system.debug('Account:: '+lstAccount);
+   return lstAccount;
+}
+}

@@ -3,7 +3,7 @@ public class AccountsController
 
 public List<Account> getAllAccounts(){
    list<Account> lstAccount = [SELECT id, Name From Account];
-   system.debug('Account List to display city based'+); //change from vscode
+   system.debug('Account List to be display city based'+); //change from vscode
    system.debug('Account:: '+lstAccount);
    return lstAccount;
 }
